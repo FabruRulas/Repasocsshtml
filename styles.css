@@ -1,0 +1,86 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    margin: 0;
+}
+
+header{
+    background-color: blue;
+    color: white;
+    padding: 40px;
+    text-align:center;
+}
+
+nav{
+    background-color: aliceblue;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+}
+
+main{
+    max-width: 1200px;
+    margin: 20px auto; 
+    padding: 20px;
+}
+
+section{
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+
+h2{
+    color: cadetblue;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td,th{
+    padding: 12px;
+}
+
+th{
+    background-color: rgb(0, 195, 255);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(78, 92, 94);
+    border-radius: 10px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 30px;
+}
